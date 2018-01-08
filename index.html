@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Css Grid Playground</title>
+<style>
+    .wrapper{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+        /* grid-gap: 1em; */
+    }
+    .wrapper > div{
+        background: #eee;
+        padding: 1em;
+    }
+    .wrapper > div:nth-child(odd){
+        background: #ddd;
+    }
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+    <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Dicta id unde consectetur illo nisi debitis itaque nam totam,
+         dolor, et, perferendis quidem autem sequi laboriosam corporis eum harum! Delectus a, enim temporibus vel dolores laborum. Dolor nostrum voluptas delectus non cum ullam dolores atque voluptatem porro perferendis? Eveniet vitae dignissimos qui! Quae velit dicta blanditiis dolorum eius facere, corporis inventore architecto a sequi iusto deleniti! Molestiae exercitationem eius similique porro vel eos consequuntur! Id doloremque rerum ipsam deleniti molestiae tempore?
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto nemo vel placeat est accusantium autem quae vitae harum, consectetur commodi similique rem consequatur in sequi veniam aspernatur molestias alias.
+    </div>
+    
+    <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Dicta id unde consectetur illo nisi debitis itaque nam totam,
+             dolor, et, perferendis quidem autem sequi laboriosam corporis eum harum! Delectus a, enim temporibus vel dolores laborum. Dolor nostrum voluptas delectus non cum ullam dolores atque voluptatem porro perferendis? Eveniet vitae dignissimos qui! Quae velit dicta blanditiis dolorum eius facere, corporis inventore architecto a sequi iusto deleniti! Molestiae exercitationem eius similique porro vel eos consequuntur! Id doloremque rerum ipsam deleniti molestiae tempore?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi architecto nemo vel placeat est accusantium autem quae vitae harum, consectetur commodi similique rem consequatur in sequi veniam aspernatur molestias alias.
+        </div>
+</div>
+</body>
+</html>
